@@ -1,4 +1,4 @@
-* wildcard {
+* {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
@@ -20,13 +20,6 @@ h1 {
     color: steelblue;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
 
 p {
     padding: 10px;
