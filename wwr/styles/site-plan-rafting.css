@@ -14,8 +14,8 @@ body {
     --accent1-color: #5ADBFF;
     --accent2-color:#3C6997;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Inter', serif;
   
     --nav-background-color:#3C6997;
     --nav-link-color: #094074;
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: Bebas Neue;
     color: var(--primary-color);
   }
   
