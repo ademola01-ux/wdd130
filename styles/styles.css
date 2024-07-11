@@ -18,6 +18,8 @@ nav a {
 
 h1 {
     color: steelblue;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 
@@ -44,9 +46,9 @@ aside img {
 
 aside h2 {
     position:absolute;
-    top: 5px;
-    left: 135px;
- } 
+    top: 20px;
+    left: 120px;
+ }
 
 main img {
     width: 150px;
@@ -59,7 +61,9 @@ main img {
 }
 
 p {
-    padding: 0;
+    margin: 1rem;
+    border: 1px rgba(0,0,0,0.2);
+    padding: 0rem;
 }
 
 footer {
