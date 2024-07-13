@@ -43,7 +43,6 @@ nav {
 nav a {
     display: block;
     color: var(--nav-link-color);
-    text-decoration: none;
     padding: 1rem;
 }
 
@@ -55,7 +54,6 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-    text-decoration: none;
 }
 
 .div img {
