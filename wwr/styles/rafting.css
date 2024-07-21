@@ -62,22 +62,3 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-.div img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 80%;
-    height: auto;
-}
-
-h1, article {
-    position: absolute;
-    top: 20px;
-}
-
