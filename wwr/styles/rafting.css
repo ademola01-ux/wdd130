@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  padding: 25px;
+  padding: 20px;
   font-family: Inter;
 }
 
@@ -67,10 +67,10 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
 h1, article {
-    position: relative;
+    position: absolute;
     top: 20px;
 }
 
