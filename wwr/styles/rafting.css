@@ -41,29 +41,12 @@ p {
 }
 
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-  
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    padding: 1rem;
-}
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
     text-decoration: none;
 }
   
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-    text-decoration: underline;
-}
 
 .hero img {
     display: block;
@@ -88,31 +71,37 @@ header {
 
 h1 {
 	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
 }
+
 
 nav {
-	text-align: right;
-}
-
-.navigation {
 	display: flex;
 	list-style: none;
+    text-align: right;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 10;
+    padding: 45px;
 }
 
 .navigation li {
 	flex: 1 1 100%;
 }
 
-.navigation a {
+nav a {
 	display: block;
-	color: navy;
-	padding: 20px;
+	/* padding: 20px; */
 	text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 1rem;
 }
 
-.navigation a:hover {
-	color: tomato;
+nav a:hover {
 	font-weight: 700;
 	text-decoration: underline;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
+
