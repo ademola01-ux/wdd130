@@ -8,6 +8,13 @@ body {
     padding: 20px;
 }
 
+header {
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 1/3;
+
+}
+
 :root {
     --primary-color:#094074;
     --secondary-color:#FFDD4A ;
