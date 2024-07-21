@@ -45,6 +45,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-evenly;
+    align-items: left;
 }
   
 nav a {
