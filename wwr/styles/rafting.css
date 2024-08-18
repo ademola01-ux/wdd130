@@ -2,17 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap');
 
+/* The General Declaration to style the Html body and put in the pseudo code for color palette*/
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-}
-
-header {
-    display: grid;
-    grid-column: 1/6;
-    grid-row: 1/3;
-
 }
 
 :root {
@@ -30,7 +24,87 @@ header {
     --nav-hover-background-color: #5ADBFF;
 }
 
-h1, h2, h3, h4, h5, h6 {
+
+/* THE HEADER ELEMENTS */
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid var(--accent1-color);
+	max-width: 1000px;
+    font-family: inherit;
+}
+
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+
+nav {
+	display: grid;
+    justify-content: space-evenly;
+    margin-left: 137.5%
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a:link, a:visited {
+	display: block;
+	color: var(--nav-link-color);
+	padding: 20px;
+    border: 2px solid blue;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+/* Style for the header elements in html: 
+that is the logo img and the nav  */
+
+
+/* THE MAIN ELEMENTS*/
+
+h1 {
+
+    font-size: 2.5rem; /* Corrected from 2rem to 2.5rem */
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    text-align: center;
+    color: floralwhite;
+    background-color: rgba(9, 64, 116, 0.74); /* Transparent blue background */
+    position: absolute; /* Allows floating on top of other content */
+    top: 35%; /* Adjust the positioning vertically */
+    right: 23%; /* Adjust the positioning horizontally */
+    transform: translate(-50%, -50%); /* Center the element */
+    width: 48.25%;
+    padding: 20px; /* Add padding to improve readability */
+    margin: 0; /* Remove default margin */
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2, h3, h4, h5, h6 {
     font-family: Bebas Neue;
     color: var(--primary-color);
 }
@@ -41,67 +115,15 @@ p {
 }
 
 
+article img {
+    padding: 80px 35% 0;
+    max-width: 200px;
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-    text-decoration: none;
-}
-  
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+article {
+    background-color: #FFDD4A;
+    align-content: justify;
+
+
 }
-
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
-}
-
-h1 {
-	font-size: 2rem;
-}
-
-
-nav {
-	display: flex;
-	list-style: none;
-    text-align: right;
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-evenly;
-    grid-column: 10;
-    padding: 45px;
-}
-
-.navigation li {
-	flex: 1 1 100%;
-}
-
-nav a {
-	display: block;
-	/* padding: 20px; */
-	text-decoration: none;
-    color: var(--nav-link-color);
-    padding: 1rem;
-}
-
-nav a:hover {
-	font-weight: 700;
-	text-decoration: underline;
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
